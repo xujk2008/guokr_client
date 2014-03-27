@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/actionbarsherlock/bin/actionbarsherlock.jar"/>
+	<classpathentry exported="true" kind="lib" path="/ViewPager/bin/viewpager.jar"/>
+	<classpathentry kind="lib" path="/actionbarsherlock/libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Jack/Desktop/httpcomponents-client-4.3.1-bin/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jack/Desktop/httpcomponents-client-4.3.1-bin/lib/httpcore-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Program Files/adt-bundle-windows-x86_64-20130717/external-libs/ksoap2-android-assembly-3.1.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

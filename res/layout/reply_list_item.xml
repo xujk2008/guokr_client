@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+    
+    <RelativeLayout 
+        android:id="@+id/replyHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+         <LinearLayout
+             android:id="@+id/replyAuthor"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center_vertical">
+             
+             <ImageView 
+                 android:id="@+id/authorImg"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>"
+             
+             <TextView
+                 android:id="@+id/authorName"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:textColor="#318ece"/>"
+             
+         </LinearLayout>
+         
+         <TextView 
+             android:id="@+id/replyTime"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:textStyle="italic"/>"
+        
+    </RelativeLayout>
+    
+    <WebView
+        android:id="@+id/replyContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>"
+
+</LinearLayout>

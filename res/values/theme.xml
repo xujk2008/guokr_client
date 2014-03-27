@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Theme.guokr" parent="Theme.Sherlock.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+    </style>
+    
+</resources>
